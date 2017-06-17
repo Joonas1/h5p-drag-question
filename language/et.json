@@ -1,0 +1,248 @@
+{
+  "semantics": [
+    {
+      "englishLabel": "Check answer button",
+      "label": "Kontrolli vastust nupp",
+      "englishDefault": "Check",
+      "default": "Kontrolli"
+    },
+    {
+      "englishLabel": "Retry button",
+      "label": "Proovi uuesti nupp",
+      "englishDefault": "Retry",
+      "default": "Proovi uuesti"
+    },
+    {
+      "englishLabel": "Correct solution label text",
+      "label": "Õige lahenduse sildi tekst",
+      "englishDefault": "Show solution",
+      "default": "Näita lahendust"
+    },
+    {
+      "englishLabel": "Feedback text",
+      "label": "Tagasisideme tekst",
+      "englishDefault": "You got @score of @total points",
+      "default": "Te saite @score punkti @total võimalikust punktist",
+      "englishDescription": "Feedback text, variables available: @score and @total. Example: 'You got @score of @total points.'",
+      "description": "Tagasisideme tekst, muutujad saadaval: @score ja @total. Näide: 'Te saite @score punkti @total võimalikust punktist.'"
+    },
+    {
+      "englishLabel": "Score explanation text",
+      "label": "Skoori selgitav tekst",
+      "englishDefault": "Correct answers give +1 point. Incorrect answers give -1 point. The lowest possible score is 0.",
+      "default": "Õiged vastused annavad +1 punkti. Valed vastused annavad -1 punkti. Kõige madalam võimalik skoor on 0."
+    },
+    {
+      "fields": [
+        {
+          "englishLabel": "Settings",
+          "label": "Seaded",
+          "fields": [
+            {
+              "englishLabel": "The title of this question",
+              "label": "Selle küsimuse pealkiri",
+              "englishDefault": "Drag and Drop",
+              "default": "Lohista ja vabasta",
+              "englishDescription": "Used in summaries, statistics etc.",
+              "description": "Kasutatud kokkuvõtetes, statistikates jne."
+            },
+            {
+              "englishLabel": "Show Title",
+              "label": "Näita pealkirja",
+              "englishDescription": "Uncheck this option if you do not want this title to be displayed. The title will only be displayed in summaries, statistics etc.",
+              "description": "Lülitage see valik välja, kui te ei taha seda pealkirja kuvada. Pealkirja kuvatakse ainult kokkuvõtetes, statistikates jne."
+            },
+            {
+              "englishLabel": "Background image",
+              "label": "Taustapilt",
+              "englishDescription": "Optional. Select an image to use as background for your drag and drop task.",
+              "description": "Valikuline. Valige pilt, mida kasutada taustana enda lohista ja vabasta ülesande jaoks."
+            },
+            {
+              "englishLabel": "Task size",
+              "label": "Ülesande suurus",
+              "englishDescription": "Specify how large (in px) the play area should be.",
+              "description": "Täpsustage, kui suur (pikslites) mängimise ala peaks olema"
+            },
+            {
+              "englishLabel": "Drop Zone Highlighting",
+              "label": "Vabastamise Ala esiletõstmine",
+              "englishDescription": "Choose when to highlight drop zones.",
+              "description": "Valige, millal tõsta esile vabastamise alad.",
+              "options": [
+                {
+                  "englishLabel": "When dragging",
+                  "label": "Kui lohistad"
+                },
+                {
+                  "englishLabel": "Always",
+                  "label": "Alati"
+                },
+                {
+                  "englishLabel": "Never",
+                  "label": "Mitte kunagi"
+                }
+              ]
+            },
+            {
+              "englishLabel": "Spacing for Auto-Align (in px)",
+              "label": "Spacing for Auto-Align (in px)"
+            },
+            {
+              "englishLabel": "Enable FullScreen",
+              "label": "Luba Täisekraan",
+              "englishDescription": "Check this option to enable the full screen button.",
+              "description": "Märgi see valik, et võimaldada täisekraani nupp."
+            }
+          ]
+        },
+        {
+          "englishLabel": "Task",
+          "label": "Ülesanne",
+          "englishDescription": "Start by placing your drop zones.<br/>Next, place your droppable elements and check off the appropriate drop zones.<br/>Last, edit your drop zone again and check off the correct answers.",
+          "description": "Alusta paigutades oma vabastamise alad.<br/>Järgmiseks, aseta oma vabastatavad elemendid ja märgi ära sobivad vabastamise alad.<br/>Lõpuks, muuda oma vabastamise ala uuesti ja märgi ära õiged vastused.",
+          "fields": [
+            {
+              "englishLabel": "Elements",
+              "label": "Elemendid",
+              "englishEntity": "element",
+              "entity": "element",
+              "field": {
+                "englishLabel": "Element",
+                "label": "Element",
+                "fields": [
+                  {
+                    "englishDescription": "Choose the type of content you would like to add.",
+                    "description": "Valige, millist sisutüüpi te sooviksite lisada."
+                  },
+                  {},
+                  {},
+                  {},
+                  {},
+                  {
+                    "englishLabel": "Select drop zones",
+                    "label": "Valige vabastamise alad"
+                  },
+                  {
+                    "englishLabel": "Background Opacity",
+                    "label": "Tausta Hägusus"
+                  },
+                  {
+                    "englishLabel": "Infinite number of element instances",
+                    "label": "Lõpmatu arv elementide juhtumeid",
+                    "englishDescription": "Clones this element so that it can be dragged to multiple drop zones.",
+                    "description": "Kloonib seda elementi, et seda saaks lohistada mitmetele vabastamise aladele."
+                  }
+                ]
+              }
+            },
+            {
+              "englishLabel": "Drop Zones",
+              "label": "Vabastamise ala",
+              "englishEntity": "Drop Zone",
+              "entity": "Vabastamise ala",
+              "field": {
+                "englishLabel": "Drop Zone",
+                "label": "Vabastamise ala",
+                "fields": [
+                  {
+                    "englishLabel": "Label",
+                    "label": "Märgis"
+                  },
+                  {
+                    "englishLabel": "Show label",
+                    "label": "Näita märgist"
+                  },
+                  {},
+                  {},
+                  {},
+                  {},
+                  {
+                    "englishLabel": "Select correct elements",
+                    "label": "Näita korrektseid elemente"
+                  },
+                  {
+                    "englishLabel": "Background Opacity",
+                    "label": "Tausta Hägusus"
+                  },
+                  {
+                    "englishLabel": "Tip",
+                    "label": "Vihje",
+                    "fields": [
+                      {
+                        "englishLabel": "Tip text",
+                        "label": "Vihje tekst"
+                      }
+                    ]
+                  },
+                  {
+                    "englishLabel": "This drop zone can only contain one element",
+                    "label": "See vabastamise ala saab ainult ",
+                    "englishDescription": "Make sure there is only one correct answer for this dropzone",
+                    "description": "Make sure there is only one correct answer for this dropzone"
+                  },
+                  {
+                    "englishLabel": "Enable Auto-Align",
+                    "label": "Enable Auto-Align",
+                    "englishDescription": "Will auto-align all draggables dropped in this zone.",
+                    "description": "Will auto-align all draggables dropped in this zone."
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "englishLabel": "Background opacity for draggables",
+      "label": "Background opacity for draggables",
+      "englishDescription": "If this field is set, it will override opacity set on all draggable elements. This should be a number between 0 and 100, where 0 means full transparency and 100 means no transparency",
+      "description": "If this field is set, it will override opacity set on all draggable elements. This should be a number between 0 and 100, where 0 means full transparency and 100 means no transparency"
+    },
+    {
+      "englishLabel": "Behavioural settings",
+      "label": "Behavioural settings",
+      "englishDescription": "These options will let you control how the task behaves.",
+      "description": "These options will let you control how the task behaves.",
+      "fields": [
+        {
+          "englishLabel": "Enable \"Retry\"",
+          "label": "Enable \"Retry\""
+        },
+        {
+          "englishLabel": "Give one point for the whole task",
+          "label": "Give one point for the whole task",
+          "englishDescription": "Disable to give one point for each draggable that is placed correctly.",
+          "description": "Disable to give one point for each draggable that is placed correctly."
+        },
+        {
+          "englishLabel": "Enable score explanation",
+          "label": "Enable score explanation"
+        },
+        {
+          "englishLabel": "Require user input before the solution can be viewed",
+          "label": "Require user input before the solution can be viewed"
+        }
+      ]
+    },
+    {
+      "englishLabel": "Localize",
+      "label": "Localize",
+      "fields": [
+        {
+          "englishLabel": "Fullscreen label",
+          "label": "Fullscreen label",
+          "englishDefault": "Fullscreen",
+          "default": "Fullscreen"
+        },
+        {
+          "englishLabel": "Exit fullscreen label",
+          "label": "Exit fullscreen label",
+          "englishDefault": "Exit fullscreen",
+          "default": "Exit fullscreen"
+        }
+      ]
+    }
+  ]
+}
