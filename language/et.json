@@ -42,7 +42,7 @@
               "englishLabel": "The title of this question",
               "label": "Selle küsimuse pealkiri",
               "englishDefault": "Drag and Drop",
-              "default": "Lohista ja vabasta",
+              "default": "Lohista",
               "englishDescription": "Used in summaries, statistics etc.",
               "description": "Kasutatud kokkuvõtetes, statistikates jne."
             },
@@ -56,7 +56,7 @@
               "englishLabel": "Background image",
               "label": "Taustapilt",
               "englishDescription": "Optional. Select an image to use as background for your drag and drop task.",
-              "description": "Valikuline. Valige pilt, mida kasutada taustana enda lohista ja vabasta ülesande jaoks."
+              "description": "Valikuline. Valige pilt, mida kasutada taustana enda lohistamise ülesande jaoks."
             },
             {
               "englishLabel": "Task size",
@@ -66,9 +66,9 @@
             },
             {
               "englishLabel": "Drop Zone Highlighting",
-              "label": "Vabastamise Ala esiletõstmine",
+              "label": "Lahtri Esiletõstmine",
               "englishDescription": "Choose when to highlight drop zones.",
-              "description": "Valige, millal tõsta esile vabastamise alad.",
+              "description": "Valige, millal tõsta esile lahtreid.",
               "options": [
                 {
                   "englishLabel": "When dragging",
@@ -86,7 +86,7 @@
             },
             {
               "englishLabel": "Spacing for Auto-Align (in px)",
-              "label": "Spacing for Auto-Align (in px)"
+              "label": "Vahe tegemine automaatse joondamise jaoks (pikslites)"
             },
             {
               "englishLabel": "Enable FullScreen",
@@ -100,7 +100,7 @@
           "englishLabel": "Task",
           "label": "Ülesanne",
           "englishDescription": "Start by placing your drop zones.<br/>Next, place your droppable elements and check off the appropriate drop zones.<br/>Last, edit your drop zone again and check off the correct answers.",
-          "description": "Alusta paigutades oma vabastamise alad.<br/>Järgmiseks, aseta oma vabastatavad elemendid ja märgi ära sobivad vabastamise alad.<br/>Lõpuks, muuda oma vabastamise ala uuesti ja märgi ära õiged vastused.",
+          "description": "Alusta paigutades oma lahtrid.<br/>Järgmiseks, aseta oma lohistatavad elemendid ja märgi ära sobivad lahtrid.<br/>Lõpuks, muuda oma lahtrit uuesti ja märgi ära õiged vastused.",
           "fields": [
             {
               "englishLabel": "Elements",
@@ -113,7 +113,7 @@
                 "fields": [
                   {
                     "englishDescription": "Choose the type of content you would like to add.",
-                    "description": "Valige, millist sisutüüpi te sooviksite lisada."
+                    "description": "Valige, millist sisu te sooviksite lisada."
                   },
                   {},
                   {},
@@ -121,7 +121,7 @@
                   {},
                   {
                     "englishLabel": "Select drop zones",
-                    "label": "Valige vabastamise alad"
+                    "label": "Valige lahtrid"
                   },
                   {
                     "englishLabel": "Background Opacity",
@@ -131,19 +131,19 @@
                     "englishLabel": "Infinite number of element instances",
                     "label": "Lõpmatu arv elementide juhtumeid",
                     "englishDescription": "Clones this element so that it can be dragged to multiple drop zones.",
-                    "description": "Kloonib seda elementi, et seda saaks lohistada mitmetele vabastamise aladele."
+                    "description": "Kloonib seda elementi, et seda saaks lohistada mitmetele lahtritele."
                   }
                 ]
               }
             },
             {
               "englishLabel": "Drop Zones",
-              "label": "Vabastamise ala",
+              "label": "Lahtrid",
               "englishEntity": "Drop Zone",
-              "entity": "Vabastamise ala",
+              "entity": "Lahter",
               "field": {
                 "englishLabel": "Drop Zone",
-                "label": "Vabastamise ala",
+                "label": "Lahter",
                 "fields": [
                   {
                     "englishLabel": "Label",
@@ -177,9 +177,9 @@
                   },
                   {
                     "englishLabel": "This drop zone can only contain one element",
-                    "label": "See vabastamise ala saab sisaldada ainult ühte elementi",
+                    "label": "See lahter saab sisaldada ainult ühte elementi",
                     "englishDescription": "Make sure there is only one correct answer for this dropzone",
-                    "description": "Veenduge, et on ainult üks õige vastus selle vabastamise ala jaoks"
+                    "description": "Veenduge, et on ainult üks õige vastus selle lahtri jaoks"
                   },
                   {
                     "englishLabel": "Enable Auto-Align",
@@ -198,7 +198,7 @@
       "englishLabel": "Background opacity for draggables",
       "label": "Tausa hägusus lohistatavate elementide jaoks",
       "englishDescription": "If this field is set, it will override opacity set on all draggable elements. This should be a number between 0 and 100, where 0 means full transparency and 100 means no transparency",
-      "description": "Kui see väli on määratud, siis see tühistab hägususe, mis määratud lohistatavatel elementidel . See peaks olema number 0 ja 100 vahepeal, kus 0 tähendab täielik läbipaistvus ja 100 tähendab mitte mingit läbipaistvust"
+      "description": "Kui see väli on määratud, siis see tühistab hägususe, mis määratud lohistatavatel elementidel . See peaks olema number 0 ja 100 vahepeal, kus 0 tähendab täielikku läbipaistvust ja 100 tähendab mitte mingit läbipaistvust"
     },
     {
       "englishLabel": "Behavioural settings",
