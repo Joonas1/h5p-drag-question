@@ -177,15 +177,15 @@
                   },
                   {
                     "englishLabel": "This drop zone can only contain one element",
-                    "label": "See vabastamise ala saab ainult ",
+                    "label": "See vabastamise ala saab sisaldada ainult ühte elementi",
                     "englishDescription": "Make sure there is only one correct answer for this dropzone",
-                    "description": "Make sure there is only one correct answer for this dropzone"
+                    "description": "Veenduge, et on ainult üks õige vastus selle vabastamise ala jaoks"
                   },
                   {
                     "englishLabel": "Enable Auto-Align",
-                    "label": "Enable Auto-Align",
+                    "label": "Võimaldage Automaatne Joondamine",
                     "englishDescription": "Will auto-align all draggables dropped in this zone.",
-                    "description": "Will auto-align all draggables dropped in this zone."
+                    "description": "Automaatselt joondab kõik lohistatud elemendid siin alas."
                   }
                 ]
               }
@@ -196,51 +196,51 @@
     },
     {
       "englishLabel": "Background opacity for draggables",
-      "label": "Background opacity for draggables",
+      "label": "Tausa hägusus lohistatavate elementide jaoks",
       "englishDescription": "If this field is set, it will override opacity set on all draggable elements. This should be a number between 0 and 100, where 0 means full transparency and 100 means no transparency",
-      "description": "If this field is set, it will override opacity set on all draggable elements. This should be a number between 0 and 100, where 0 means full transparency and 100 means no transparency"
+      "description": "Kui see väli on määratud, siis see tühistab hägususe, mis määratud lohistatavatel elementidel . See peaks olema number 0 ja 100 vahepeal, kus 0 tähendab täielik läbipaistvus ja 100 tähendab mitte mingit läbipaistvust"
     },
     {
       "englishLabel": "Behavioural settings",
-      "label": "Behavioural settings",
+      "label": "Käitumise seaded",
       "englishDescription": "These options will let you control how the task behaves.",
-      "description": "These options will let you control how the task behaves.",
+      "description": "Need valikud võimaldavad teil kontrollida, kuidas see ülesanne käitub.",
       "fields": [
         {
           "englishLabel": "Enable \"Retry\"",
-          "label": "Enable \"Retry\""
+          "label": "Võimalda \"Proovi uuesti\""
         },
         {
           "englishLabel": "Give one point for the whole task",
-          "label": "Give one point for the whole task",
+          "label": "Anna üks punkt kogu ülesande eest",
           "englishDescription": "Disable to give one point for each draggable that is placed correctly.",
-          "description": "Disable to give one point for each draggable that is placed correctly."
+          "description": "Ära luba anda ühte punkti iga lohistatava elemendi eest, mis on paigaldatud korrektselt."
         },
         {
           "englishLabel": "Enable score explanation",
-          "label": "Enable score explanation"
+          "label": "Võimalda skoori seletus"
         },
         {
           "englishLabel": "Require user input before the solution can be viewed",
-          "label": "Require user input before the solution can be viewed"
+          "label": "Nõua kasutaja sisendit enne, kui vastust saab vaadata"
         }
       ]
     },
     {
       "englishLabel": "Localize",
-      "label": "Localize",
+      "label": "Lokaliseeri",
       "fields": [
         {
           "englishLabel": "Fullscreen label",
-          "label": "Fullscreen label",
+          "label": "Täisekraani silt",
           "englishDefault": "Fullscreen",
-          "default": "Fullscreen"
+          "default": "Täisekraan"
         },
         {
           "englishLabel": "Exit fullscreen label",
-          "label": "Exit fullscreen label",
+          "label": "Lahku täisekraanilt silt",
           "englishDefault": "Exit fullscreen",
-          "default": "Exit fullscreen"
+          "default": "Lahku täisekraanilt"
         }
       ]
     }
